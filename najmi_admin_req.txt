@@ -1,0 +1,33 @@
+# ================================
+# TERMUX SETUP COMMANDS (STEP BY STEP)
+# ================================
+
+@@@ YOUTUBE/SUBSCRIBE:- NAJMI FF EXPERIMENT @@@@@@
+
+# pkg update && pkg upgrade -y
+# pkg install python git unzip nano -y
+# termux-setup-storage
+# python -m pip install --upgrade pip
+
+# Protobuf fix (IMPORTANT)
+# export PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python
+# export PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION_VERSION=2
+
+      Run Bot
+# python main.py
+
+python -m pip install -r requirements.txt
+
+
+export PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python
+export PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION_VERSION=2
+python main.py
+
+
+# ================================
+# PYTHON REQUIREMENTS (REAL)
+# ================================
+
+flask==3.1.2
+protobuf==6.30.0
+requests
